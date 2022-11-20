@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="from">
+     <h1>YouTube Sub2Unlock BtoL Generator</h1>
+      <input type="text" class="link YouTube" placeholder="Enter Your YouTube Channel Url..." />
+      <input type="text" class="link Download" placeholder="Enter Your Download Url..."/>
+  <!---Subscribe Link--->
+    <button class="Get" onclick="SubscribeLink()">Generate Subscribe Link</button>
+  <!--Subscribe Button--->
+    <button class="Get" onclick="Subscribebtn()">Generate Subscribe Button</button>
+  <!--Preview Subscribe Link--->
+    <div class="hidden1">
+      <h1 class="text">Preview Subscribe Link</h1>
+      <input type="text" class="SubLink">
+      <button class="previewBtn"><a href="" class="a">Live Preview</a></button>
+      <button class="Get" onclick="ClipboardLink()">Copy Code</button>
+    </div>
+  <!--Preview Subscribe Button--->
+    <div class="hidden2">
+      <div class="preview"></div>
+       <textarea class="result" hidden></textarea>
+        <button class="Get" onclick="Clipboard()">Copy Code</button>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

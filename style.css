@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+    background: linear-gradient(to right, rgb(0, 255, 93), rgb(247, 239, 255));
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100vh;
+}
+.from{
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+  padding: 20px;
+  width: 310px;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  font-size: 18px;
+  color: #0ED52A;
+}
+.link{
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    border: 2px solid #7F0ED5;
+    border-radius: 5px;
+    padding: 5px;
+    color: #003CFF;
+}
+.link::placeholder{
+  color: #7F0ED5;
+}
+.Get{
+    width: 314px;
+    display: block;
+    background-color: #00FF5D;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.text {
+  text-align: center;
+  font-size: 18px;
+  color: #0ED52A;
+  margin-top: 15px;
+}
+/*Subscribe link*/
+.hidden1{
+  display: none;
+}
+.hidden1.active{
+  display: block;
+}
+.SubLink{
+  width: 300px;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  border: 2px solid #7F0ED5;
+  border-radius: 5px;
+  padding: 5px;
+  color: #003CFF;
+}
+.previewBtn{
+    width: 314px;
+    display: block;
+    background-color: #00FF5D;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: none;
+    outline: none;
+}
+.a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*Subscribe Button*/
+.hidden2{
+  display: none;
+}
+.hidden2.active{
+  display: block;
+}
+.result{
+  width: 300px;
+  height: 130px;
+  border: 2px solid #EBB865;
+  margin-top: 15px;
+  text-align: center;
+  border: 2px solid #7F0ED5;
+  border-radius: 5px;
+  padding: 5px;
+}
